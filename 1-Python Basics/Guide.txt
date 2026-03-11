@@ -1,0 +1,57 @@
+Clone the project
+git clone <repo-url>
+cd project-folder
+2️⃣ Create a virtual environment
+python -m venv venv
+
+This creates the same venv folder locally.
+
+3️⃣ Activate the environment
+
+Windows
+
+venv\Scripts\activate
+
+Mac / Linux
+
+source venv/bin/activate
+
+After activation you will see:
+
+(venv)
+
+in the terminal.
+
+4️⃣ Install project dependencies
+pip install -r requirements.txt
+
+This installs all packages listed in requirements.txt.
+
+Example:
+
+flask
+numpy
+pandas
+openai
+5️⃣ Run the project
+
+Example:
+
+python app.py
+📦 Final Workflow (Industry Standard)
+
+Developer 1:
+
+Create project
+Create venv
+Install packages
+pip freeze > requirements.txt
+Push code (without venv)
+
+Developer 2:
+
+git clone
+python -m venv venv
+activate venv
+pip install -r requirements.txt
+run project
