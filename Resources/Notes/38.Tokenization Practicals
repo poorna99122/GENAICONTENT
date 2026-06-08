@@ -1,0 +1,12 @@
+
+we need to first install jupyter notebook in our workspace 
+    need to go to the folder where we need this jupyter noteboook 
+        here it is inside 1-Python Basics -> Notebooks
+            Inside this we can give command - pip install notebook
+                and then we can run command - jupyter notebook
+                this will automatically run in local host 
+
+
+    Now in one cell we can install nltk using this command - !pip install nltk
+        To check whether installed or not we can use this command - !pip show nltk
+        

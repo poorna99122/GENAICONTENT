@@ -14,6 +14,7 @@ def load_data():
 
 
 
+
 df,target_name = load_data()
 
 model = RandomForestClassifier()
